@@ -69,7 +69,7 @@ Interleaver_Columns       = (nBitPerSym * nDSC * nSym) / Interleaver_Rows;
 Random_permutation_Vector = randperm(nBitPerSym*nDSC*nSym); % Permutation vector
 %% -----------------Vehicular Channel Model Parameters--------------------------
 mobility                  = 'Low';
-ChType                    = 'VTV_UC';             % Channel model
+ChType                    = 'VTV_SDWW';             % Channel model
 fs                        = K*deltaF;               % Sampling frequency in Hz, here case of 802.11p with 64 subcarriers and 156250 Hz subcarrier spacing
 fc                        = 5.9e9;                  % Carrier Frequecy in Hz.
 vel                       = 45;                    % Moving speed of user in km
